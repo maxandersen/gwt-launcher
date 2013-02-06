@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.debug.ui.launchShortcuts">
+          <shortcut
+        id="org.jboss.tools.gwt.launcher.ui.GWTDevModeLaunchShortcut"
+        class="org.jboss.tools.gwt.launcher.ui.GWTDevModeLaunchShortcut"
+        label="GWT Developement Mode"
+        modes="run, debug">
+            <perspective id="org.eclipse.jdt.ui.JavaPerspective"/>
+            <perspective id="org.eclipse.jdt.ui.JavaHierarchyPerspective"/>
+            <perspective id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+            <perspective id="org.eclipse.debug.ui.DebugPerspective"/>
+    </shortcut>
+   </extension>
+
+</plugin>
